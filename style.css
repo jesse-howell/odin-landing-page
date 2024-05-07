@@ -2,6 +2,19 @@ h1 {
   text-align: center;
 }
 
-.quote {
-  align-content: center;
+.quote-text {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.hero,
+footer,
+header {
+  background-color: #1f2937;
+}
+
+.hero-text {
+  size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
 }
