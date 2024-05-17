@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
 }
 
-header nav {
-  size: 24px;
+header {
+  font-size: 24px;
+  padding: 20px;
   color: #f9faf8;
   background-color: #1f2937;
 }
@@ -20,6 +27,8 @@ header nav ul li {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 5px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .flex-container {
@@ -27,8 +36,62 @@ header nav ul li {
   justify-content: space-around;
 }
 
+.hero {
+  background-color: #1f2937;
+}
+
+.hero-text h1 {
+  padding-top: 40px;
+  display: flex;
+  color: #f9faf8;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
+  display: block;
+}
+
+button {
+  width: 125px;
+  height: 45x;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  border: #3882f6;
+}
+
+.info h3 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+b {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* .roboto-tkin { */
-/* font-family: "Roboto", sans-serif; */
+/* font-family: "::-webkit-scrollbar-buttonto", sans-serif; */
 /* font-weight: 100; */
 /* font-style: normal; */
 /* } */
