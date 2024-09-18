@@ -31,9 +31,10 @@ header nav ul li {
   color: #e5e7eb;
 }
 
-.flex-container {
+.nav-bar {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .hero {
