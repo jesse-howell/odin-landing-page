@@ -15,6 +15,7 @@ header {
   padding: 20px;
   color: #f9faf8;
   background-color: #1f2937;
+  justify-content: left;
 }
 
 header nav ul {
