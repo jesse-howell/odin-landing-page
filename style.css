@@ -23,7 +23,7 @@ body {
   
 } */
 
-.nav-bar ul li {
+ ul {
   font-weight: 300;
   display: inline-block;
   margin-left: 25px;
@@ -34,6 +34,20 @@ body {
   justify-content: right;
 
 }
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
 /* .nav-bar {
   display: flex;
   flex-direction: row;
