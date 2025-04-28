@@ -10,19 +10,20 @@ body {
   font-style: normal;
 }
 
-header {
+.logo {
   font-size: 24px;
   padding: 20px;
   color: #f9faf8;
   background-color: #1f2937;
-  justify-content: left;
-}
-
-header nav ul {
+  /* justify-content: left; */
   list-style-type: none;
 }
 
-header nav ul li {
+/* header nav ul {
+  
+} */
+
+.nav-bar ul li {
   font-weight: 300;
   display: inline-block;
   margin-left: 25px;
@@ -30,15 +31,15 @@ header nav ul li {
   margin-top: 5px;
   font-size: 18px;
   color: #e5e7eb;
-  justify-content: left;
-}
+  justify-content: right;
 
-.nav-bar {
+}
+/* .nav-bar {
   display: flex;
   flex-direction: row;
-}
+} */
 
-.hero {
+/* .hero {
   background-color: #1f2937;
 }
 
@@ -90,7 +91,7 @@ b {
   font-size: 24px;
   font-weight: 600;
   font-style: normal;
-}
+} */
 
 /* .roboto-tkin { */
 /* font-family: "::-webkit-scrollbar-buttonto", sans-serif; */
