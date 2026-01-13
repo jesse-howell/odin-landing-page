@@ -1,1 +1,18 @@
+body {
+  font-family: "Roboto";
+}
 
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  background-color: #1f2937;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
