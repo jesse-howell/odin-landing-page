@@ -8,3 +8,20 @@
 }
 /* TODO:style header */
 /* TODO:style .navigation */
+.navbox {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul li {
+	display: flex;
+	justify-content: right;
+	box-sizing: border-box;
+	width: auto;
+	right: inherit;
+}
