@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+}
 .roboto-body {
 	font-family: "Roboto", sans-serif;
 	font-optical-sizing: auto;
@@ -10,18 +15,24 @@
 /* TODO:style .navigation */
 .navbox {
 	display: flex;
-	align-items: center;
+	/* justify-content: center; */
+	background-color: aqua;
 }
 
 .logo {
 	display: flex;
 	justify-content: flex-start;
+	background-color: aqua;
 }
 
 ul li {
-	display: flex;
-	justify-content: right;
-	box-sizing: border-box;
+	display: inline-flex;
 	width: auto;
 	right: inherit;
+	align-items: right;
+
+}
+
+.navbox.right {
+	margin-left: auto;
 }
