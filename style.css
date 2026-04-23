@@ -5,34 +5,33 @@
 	box-sizing: content-box;
 	outline: 1px solid red;
 }
-.roboto-body {
+body {
 	font-family: "Roboto", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 100;
 	font-style: normal;
 	font-variation-settings: "wdth" 100;
 }
-/* TODO:style header */
-/* TODO:style .navigation */
-.navbox {
-	display: flex;
-	/* justify-content: center; */
-	background-color: aqua;
-}
 
-.logo {
+/* .navbox {
+	display: flex;
+	justify-content: center;
+	background-color: aqua;
+} */
+
+/* .logo {
 	display: flex;
 	justify-content: flex-start;
 	background-color: aqua;
-}
+} */
 
-ul li {
+/* ul li {
 	display: inline-flex;
 	width: auto;
 	right: inherit;
 	align-items: right;
-}
+} */
 
-.navbox.right {
+/* .navbox.right {
 	margin-left: auto;
-}
+} */
