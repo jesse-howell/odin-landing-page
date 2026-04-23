@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: content-box;
+	padding-top: 0;
+	margin-left: 5%;
+	box-sizing: border-box;
 	outline: 1px solid red;
 }
 body {
@@ -13,6 +13,11 @@ body {
 	font-variation-settings: "wdth" 100;
 }
 
+header {
+}
+/* 
+header {
+} */
 /* .navbox {
 	display: flex;
 	justify-content: center;
